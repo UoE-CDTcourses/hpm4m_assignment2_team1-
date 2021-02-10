@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx Q3.cpp  -o Q3exe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
+
